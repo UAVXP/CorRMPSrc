@@ -165,3 +165,7 @@ pip-log.txt
 # HL2
 [Dd]ebug_hl2mp/
 [Rr]elease_hl2mp/
+mapsrc/*.bsp
+mapsrc/*.log
+mapsrc/*.prt
+mapsrc/*.vmx
