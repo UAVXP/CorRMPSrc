@@ -69,6 +69,7 @@
 copy "$(TargetDir)"client.dll "d:\steam\steamapps\SourceMods\corrmp\bin"
 </Command>
       <Outputs>d:\steam\steamapps\SourceMods\corrmp\bin\client.dll;%(Outputs)</Outputs>
+      <Inputs>$(TargetPath)</Inputs>
     </CustomBuildStep>
     <ClCompile>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
@@ -149,6 +150,7 @@ if exist "d:\steam\steamapps\SourceMods\corrmp\bin\client.pdb" attrib -r "d:\ste
 if exist "$(TargetDir)"client.pdb copy "$(TargetDir)"client.pdb "d:\steam\steamapps\SourceMods\corrmp\bin\client.pdb"
 </Command>
       <Outputs>d:\steam\steamapps\SourceMods\corrmp\bin\client.dll;d:\steam\steamapps\SourceMods\corrmp\bin\client.pdb;%(Outputs)</Outputs>
+      <Inputs>$(TargetPath)</Inputs>
     </CustomBuildStep>
     <ClCompile>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>

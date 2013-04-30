@@ -161,3 +161,7 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+# HL2
+[Dd]ebug_hl2mp/
+[Rr]elease_hl2mp/
